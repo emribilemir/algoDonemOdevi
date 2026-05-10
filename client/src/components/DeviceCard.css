@@ -1,0 +1,179 @@
+/* ================================
+   DEVICE CARD
+   ================================ */
+.device-card {
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  position: relative;
+  opacity: 0;
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.device-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg), 0 0 25px color-mix(in srgb, var(--device-color) 12%, transparent);
+  border-color: color-mix(in srgb, var(--device-color) 30%, transparent);
+}
+
+/* Category badge */
+.device-category-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.85;
+}
+
+/* Device name */
+.device-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+/* Sustainability stars */
+.device-stars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.star {
+  font-size: 0.9rem;
+  color: var(--bg-card-hover);
+  transition: color var(--transition-fast);
+}
+
+.star.filled {
+  color: #fbbf24;
+  text-shadow: 0 0 6px rgba(251, 191, 36, 0.3);
+}
+
+.star-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-left: 6px;
+  font-weight: 500;
+}
+
+/* Stats grid */
+.device-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-sm);
+  margin-top: var(--space-xs);
+}
+
+.device-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.device-stat-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.device-stat-value {
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.device-stat-value.cost {
+  color: #f59e0b;
+}
+
+.device-stat-value.energy {
+  color: var(--green-400);
+}
+
+/* Objective value bar */
+.device-obj-section {
+  margin-top: var(--space-xs);
+}
+
+.device-obj-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.device-obj-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.device-obj-value {
+  font-size: 0.75rem;
+  color: var(--device-color);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.device-obj-bar {
+  height: 4px;
+  background: var(--bg-card);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.device-obj-fill {
+  height: 100%;
+  background: var(--device-color);
+  border-radius: var(--radius-full);
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: progressFill 0.8s ease forwards;
+}
+
+/* Tooltip */
+.device-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  pointer-events: none;
+}
+
+.tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: 0.78rem;
+}
+
+.tooltip-row span {
+  color: var(--text-secondary);
+}
+
+.tooltip-row strong {
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 768px) {
+  .device-tooltip {
+    display: none;
+  }
+}

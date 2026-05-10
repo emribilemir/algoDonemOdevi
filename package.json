@@ -1,0 +1,14 @@
+{
+  "name": "yesil-sehir-projesi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yeşil Şehir Projesi — Algoritma Tasarımı ve Analizi",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "build": "npm run install:all && cd client && npm run build",
+    "start": "node server/index.js",
+    "dev": "npx -y concurrently -n server,client -c green,cyan \"node server/index.js\" \"npx -y vite client\"",
+    "dev:server": "node server/index.js",
+    "dev:client": "npx -y vite client"
+  }
+}

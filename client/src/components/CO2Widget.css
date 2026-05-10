@@ -1,0 +1,224 @@
+/* ================================
+   CO2 WIDGET
+   ================================ */
+.co2-widget {
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(16, 185, 129, 0.15);
+  background: linear-gradient(
+    135deg,
+    rgba(6, 95, 70, 0.15) 0%,
+    rgba(16, 185, 129, 0.05) 50%,
+    rgba(26, 35, 50, 0.7) 100%
+  );
+  backdrop-filter: blur(12px);
+}
+
+/* Background decoration */
+.co2-bg-leaf {
+  position: absolute;
+  font-size: 4rem;
+  opacity: 0.06;
+  top: -10px;
+  right: 10px;
+  animation: leafFloat 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.co2-bg-leaf-2 {
+  font-size: 3rem;
+  top: auto;
+  bottom: 10px;
+  right: auto;
+  left: 10px;
+  animation-delay: 2s;
+}
+
+/* Header */
+.co2-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-lg);
+}
+
+.co2-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.co2-title-icon {
+  font-size: 1.2rem;
+}
+
+.co2-rating-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.co2-rating-badge.excellent {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--green-400);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.co2-rating-badge.very-good {
+  background: rgba(52, 211, 153, 0.12);
+  color: var(--green-300);
+  border: 1px solid rgba(52, 211, 153, 0.25);
+}
+
+.co2-rating-badge.good {
+  background: rgba(251, 191, 36, 0.12);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.25);
+}
+
+.co2-rating-badge.moderate {
+  background: rgba(249, 115, 22, 0.12);
+  color: #f97316;
+  border: 1px solid rgba(249, 115, 22, 0.25);
+}
+
+.co2-rating-badge.low {
+  background: rgba(239, 68, 68, 0.12);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+/* Main stat */
+.co2-main-stat {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.co2-value-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.co2-big-value {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.co2-big-unit {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.co2-description {
+  margin-top: var(--space-sm);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Details */
+.co2-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-lg);
+}
+
+.co2-detail-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex: 1;
+  justify-content: center;
+}
+
+.co2-detail-icon-wrap {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.03);
+  flex-shrink: 0;
+}
+
+.co2-detail-icon {
+  font-size: 1.1rem;
+}
+
+.co2-detail-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: block;
+  font-variant-numeric: tabular-nums;
+}
+
+.co2-detail-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  display: block;
+  font-weight: 500;
+}
+
+.co2-detail-divider {
+  width: 1px;
+  height: 36px;
+  background: var(--border-subtle);
+  flex-shrink: 0;
+}
+
+/* Formula */
+.co2-formula {
+  text-align: center;
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+.formula-text {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  font-family: 'Courier New', monospace;
+}
+
+.formula-text strong {
+  color: var(--green-400);
+}
+
+@media (max-width: 768px) {
+  .co2-details {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .co2-detail-divider {
+    width: 80%;
+    height: 1px;
+  }
+
+  .co2-big-value {
+    font-size: 2rem;
+  }
+}

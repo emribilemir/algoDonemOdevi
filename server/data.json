@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "LED Panel Aydınlatma",
+    "category": "Aydınlatma",
+    "cost": 12000,
+    "energySaving": 850,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 2,
+    "name": "Hareket Sensörlü Aydınlatma",
+    "category": "Aydınlatma",
+    "cost": 8500,
+    "energySaving": 620,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 3,
+    "name": "Güneş Enerjili Dış Aydınlatma",
+    "category": "Aydınlatma",
+    "cost": 15000,
+    "energySaving": 1100,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 4,
+    "name": "Akıllı Termostat Sistemi",
+    "category": "Isıtma",
+    "cost": 22000,
+    "energySaving": 1800,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 5,
+    "name": "Yoğuşmalı Kombi",
+    "category": "Isıtma",
+    "cost": 45000,
+    "energySaving": 2500,
+    "sustainabilityScore": 3
+  },
+  {
+    "id": 6,
+    "name": "Yerden Isıtma Sistemi",
+    "category": "Isıtma",
+    "cost": 85000,
+    "energySaving": 3200,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 7,
+    "name": "Isı Pompası (Hava Kaynaklı)",
+    "category": "Isıtma",
+    "cost": 120000,
+    "energySaving": 5500,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 8,
+    "name": "Inverter Klima Sistemi",
+    "category": "Soğutma",
+    "cost": 35000,
+    "energySaving": 1400,
+    "sustainabilityScore": 3
+  },
+  {
+    "id": 9,
+    "name": "VRF Merkezi Soğutma",
+    "category": "Soğutma",
+    "cost": 180000,
+    "energySaving": 6200,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 10,
+    "name": "Evaporatif Soğutma Sistemi",
+    "category": "Soğutma",
+    "cost": 28000,
+    "energySaving": 1900,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 11,
+    "name": "Dış Cephe Mantolama",
+    "category": "Yalıtım",
+    "cost": 95000,
+    "energySaving": 4800,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 12,
+    "name": "Çatı Yalıtımı (Taş Yünü)",
+    "category": "Yalıtım",
+    "cost": 42000,
+    "energySaving": 2200,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 13,
+    "name": "Isı Yalıtımlı PVC Pencere",
+    "category": "Yalıtım",
+    "cost": 65000,
+    "energySaving": 3100,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 14,
+    "name": "Çatı Üstü Güneş Paneli",
+    "category": "Enerji Üretimi",
+    "cost": 250000,
+    "energySaving": 14000,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 15,
+    "name": "Küçük Rüzgar Türbini",
+    "category": "Enerji Üretimi",
+    "cost": 75000,
+    "energySaving": 2600,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 16,
+    "name": "Güneş Enerjili Su Isıtıcı",
+    "category": "Enerji Üretimi",
+    "cost": 18000,
+    "energySaving": 1500,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 17,
+    "name": "Yağmur Suyu Toplama Sistemi",
+    "category": "Su Yönetimi",
+    "cost": 32000,
+    "energySaving": 400,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 18,
+    "name": "Gri Su Geri Dönüşüm Ünitesi",
+    "category": "Su Yönetimi",
+    "cost": 55000,
+    "energySaving": 750,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 19,
+    "name": "Sensörlü Su Armatürleri",
+    "category": "Su Yönetimi",
+    "cost": 9500,
+    "energySaving": 320,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 20,
+    "name": "Bina Otomasyon Sistemi (BMS)",
+    "category": "Akıllı Sistem",
+    "cost": 140000,
+    "energySaving": 7500,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 21,
+    "name": "Akıllı Enerji Sayacı",
+    "category": "Akıllı Sistem",
+    "cost": 6500,
+    "energySaving": 450,
+    "sustainabilityScore": 3
+  },
+  {
+    "id": 22,
+    "name": "Enerji Depolama Bataryası",
+    "category": "Enerji Üretimi",
+    "cost": 110000,
+    "energySaving": 3800,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 23,
+    "name": "Elektrikli Araç Şarj İstasyonu",
+    "category": "Akıllı Sistem",
+    "cost": 48000,
+    "energySaving": 1200,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 24,
+    "name": "Yeşil Çatı (Sedir) Sistemi",
+    "category": "Yalıtım",
+    "cost": 72000,
+    "energySaving": 2000,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 25,
+    "name": "CO₂ Sensörlü Havalandırma",
+    "category": "Akıllı Sistem",
+    "cost": 19500,
+    "energySaving": 980,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 26,
+    "name": "Yüksek Lümenli LED Panel",
+    "category": "Aydınlatma",
+    "cost": 13200,
+    "energySaving": 977,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 27,
+    "name": "360° Radar Sensörlü Aydınlatma",
+    "category": "Aydınlatma",
+    "cost": 9350,
+    "energySaving": 713,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 28,
+    "name": "Endüstriyel Solar Sokak Lambası",
+    "category": "Aydınlatma",
+    "cost": 16500,
+    "energySaving": 1265,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 29,
+    "name": "Öğrenen Akıllı Termostat",
+    "category": "Isıtma",
+    "cost": 24200,
+    "energySaving": 2070,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 30,
+    "name": "Çift Yoğuşmalı Premium Kombi",
+    "category": "Isıtma",
+    "cost": 49500,
+    "energySaving": 2875,
+    "sustainabilityScore": 3
+  },
+  {
+    "id": 31,
+    "name": "Karbon Film Yerden Isıtma",
+    "category": "Isıtma",
+    "cost": 93500,
+    "energySaving": 3680,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 32,
+    "name": "Toprak Kaynaklı Isı Pompası",
+    "category": "Isıtma",
+    "cost": 132000,
+    "energySaving": 6325,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 33,
+    "name": "A+++ Çift Inverter Klima",
+    "category": "Soğutma",
+    "cost": 38500,
+    "energySaving": 1610,
+    "sustainabilityScore": 3
+  },
+  {
+    "id": 34,
+    "name": "Isı Geri Kazanımlı VRF Sistemi",
+    "category": "Soğutma",
+    "cost": 198000,
+    "energySaving": 7130,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 35,
+    "name": "Yüksek Kapasiteli Evaporatif Soğutucu",
+    "category": "Soğutma",
+    "cost": 30800,
+    "energySaving": 2185,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 36,
+    "name": "Karbonlu EPS Dış Cephe Yalıtımı",
+    "category": "Yalıtım",
+    "cost": 104500,
+    "energySaving": 5520,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 37,
+    "name": "Poliüretan Köpük Çatı Yalıtımı",
+    "category": "Yalıtım",
+    "cost": 46200,
+    "energySaving": 2530,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 38,
+    "name": "Üçlü Cam Argon Gazlı Pencere",
+    "category": "Yalıtım",
+    "cost": 71500,
+    "energySaving": 3565,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 39,
+    "name": "Monokristal Güneş Paneli",
+    "category": "Enerji Üretimi",
+    "cost": 275000,
+    "energySaving": 16100,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 40,
+    "name": "Dikey Eksenli Rüzgar Türbini",
+    "category": "Enerji Üretimi",
+    "cost": 82500,
+    "energySaving": 2990,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 41,
+    "name": "Vakum Tüplü Solar Su Isıtıcı",
+    "category": "Enerji Üretimi",
+    "cost": 19800,
+    "energySaving": 1725,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 42,
+    "name": "Yeraltı Yağmur Suyu Sarnıcı",
+    "category": "Su Yönetimi",
+    "cost": 35200,
+    "energySaving": 460,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 43,
+    "name": "MBR Sistemli Gri Su Ünitesi",
+    "category": "Su Yönetimi",
+    "cost": 60500,
+    "energySaving": 862,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 44,
+    "name": "Ultra Düşük Debili Akıllı Batarya",
+    "category": "Su Yönetimi",
+    "cost": 10450,
+    "energySaving": 368,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 45,
+    "name": "Bulut Tabanlı Akıllı Bina Yönetimi",
+    "category": "Akıllı Sistem",
+    "cost": 154000,
+    "energySaving": 8625,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 46,
+    "name": "Çift Yönlü Akıllı Şebeke Sayacı",
+    "category": "Akıllı Sistem",
+    "cost": 7150,
+    "energySaving": 518,
+    "sustainabilityScore": 3
+  },
+  {
+    "id": 47,
+    "name": "Lityum İyon Depolama Ünitesi",
+    "category": "Enerji Üretimi",
+    "cost": 121000,
+    "energySaving": 4370,
+    "sustainabilityScore": 4
+  },
+  {
+    "id": 48,
+    "name": "DC Hızlı Şarj İstasyonu",
+    "category": "Akıllı Sistem",
+    "cost": 52800,
+    "energySaving": 1380,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 49,
+    "name": "Yoğun Yeşil Çatı Teras Sistemi",
+    "category": "Yalıtım",
+    "cost": 79200,
+    "energySaving": 2300,
+    "sustainabilityScore": 5
+  },
+  {
+    "id": 50,
+    "name": "Isı Geri Kazanımlı VAV Havalandırma",
+    "category": "Akıllı Sistem",
+    "cost": 21450,
+    "energySaving": 1127,
+    "sustainabilityScore": 4
+  }
+]
